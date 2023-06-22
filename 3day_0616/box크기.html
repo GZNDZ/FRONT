@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box1{
+            width: 100px;
+            height: 100px;
+            border: 1px solid black;
+            padding: 50px;
+        }
+        .box2{
+            width: 100px;
+            height: 100px;
+            border: 1px solid black;
+            padding: 50px;  
+            box-sizing: border-box; /*크기유지를 위해서 추가해야함 */
+        }
+    </style>
+</head>
+<body>
+
+    <h1> BOX 크기는 넓이 + 테두리좌우 + 패딩의 좌우 </h1>
+    <h2> box-sizing:border-box 는 박스크기유지 </h2>
+    <h2> box-sizing:content-box 는 여백을 주면 박스크기 커짐 </h2>
+    <div class="box1">
+
+    </div>
+    <div class="box2">
+
+    </div>
+</body>
+</html>

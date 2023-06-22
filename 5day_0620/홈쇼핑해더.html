@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .wrap {
+            height: 200px;
+            display: flex;
+            position: relative;
+        }
+
+        span {
+            font-size: 80px;
+            color: rgb(211, 42, 42);
+            line-height: 180px;
+            position: absolute;
+            left: 200px;
+        }
+
+        .R {
+
+            position: absolute;
+            left: 2000px;
+            display: flex;
+            top: 160px;
+        }
+
+        .search {
+            width: 700px;
+            height: 60px;
+            border: 1px solid rgb(211, 42, 42);
+            border-radius: 30px;
+            position: absolute;
+            left: 700px;
+            top: 65px;
+        }
+
+        .btn1 {
+            width: 80px;
+            height: 80px;
+        }
+
+        .btn2 {
+            width: 60px;
+            height: 60px;
+            position: absolute;
+            left: -5px;
+            bottom: 85px;
+            background-image: url(./로그린1.png);
+            background-position: center;
+            background-size: cover;
+            border: 0px
+        }
+
+        .btn3 {
+            width: 60px;
+            height: 60px;
+            position: absolute;
+            left: 82px;
+            bottom: 85px;
+            background-image: url(./장바구니1.png);
+            background-position: center;
+            background-size: cover;
+            border: 0px
+        }
+
+        .btn4 {
+            width: 60px;
+            height: 60px;
+            position: absolute;
+            left: 162px;
+            bottom: 85px;
+            background-image: url(./배송1.png);
+            background-position: center;
+            background-size: cover;
+            border: 0px
+        }
+
+        .btn5 {
+            width: 60px;
+            height: 60px;
+            position: absolute;
+            left: 238px;
+            bottom: 85px;
+            background-image: url(./마이페이지1.png);
+            background-position: center;
+            background-size: cover;
+            border: 0px
+        }
+
+
+        .dot {
+            width: 55px;
+            height: 55px;
+            position: absolute;
+            top: 2.5px;
+            left: 620px;
+            background-image: url(https://png.pngtree.com/element_our/20200703/ourlarge/pngtree-red-icon-magnifying-glass-png-image_2300543.jpg);
+            background-position: center;
+            background-size: cover;
+
+            border: 0px;
+        }
+
+        input {
+            width: 500px;
+            height: 52px;
+            border-radius: 30px;
+            top: 20px;
+            border: 0px;
+            /* input text의 기본 옵션에 테두리선이 있기때문에 0px줘서 없앤다.*/
+            outline: 0px;
+            /* 클릭했을때 테두리가 보이는걸 없애려고 0px 준다.*/
+            position: absolute;
+            top: 2.5px;
+            left: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="wrap">
+
+
+
+        <span>롯데홈쇼핑</span>
+
+        <div class="search"><input type="text" placeholder="풍성한 한가위 되시길......"><button class="dot"></button></div>
+
+        <div class="R">
+            <div class="btn1"><button class="btn2"></button>로그인</div>
+            <div class="btn1"><button class="btn3"></button>장바구니</div>
+            <div class="btn1"><button class="btn4"></button>주문배송</div>
+            <div class="btn1"><button class="btn5"></button>마이홈</div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
