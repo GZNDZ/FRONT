@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a=10;
+
+        //a=1;
+        a=a+1;  //11
+        console.log(a); //11
+
+        a++;
+        console.log(a); //12
+
+        ++a;
+        console.log(a); //
+
+        // ++a , a++ 증가를 먼저 시키고 , 증가를 나중에 시킨다.
+
+        // 공통점 : 변수의 값을 1증가 시킴
+        // 다른점 : 연산의 결과가 다름
+        // ++a : => 증가된 후의 값을 연산의 결과로 반환
+        // a++ : => 증가되기 전의 값을 연산의 결과로 반환
+
+        let b=10 , c=10;
+        let rtn1, rtn2;
+
+        rtn1 = b++;
+        rtn2 = ++c;
+
+        console.log(b);  //11
+        console.log(c);  //11
+
+        console.log(rtn1);
+        console.log(rtn2);
+
+        let sum = 10+20;        
+    </script>
+    
+</body>
+</html>

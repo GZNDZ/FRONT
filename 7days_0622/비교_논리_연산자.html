@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <h2> 비교연산자 => true / false </h2>
+
+    <script>
+        let su1=10;
+        let su2=3;
+
+        console.log(su1>su2);
+        console.log(su1>=su2);
+        
+        console.log(su1==su2);
+        console.log(su1!=su2);
+        console.log(su1<su2);
+        console.log(su1<=su2);
+    </script>
+
+    <h2> 논리연산자 그리고(&&), 또는(||), !(부정) </h2>
+    <p> &&(AND)는 모두 만족할때 참 </p>
+    <p> ||(OR)는 조건의 일부라도 만족할때 참 </p>
+    <p> !(논리부정연산자)는 참일때 거짓, 거짓일때 참 </p>
+
+    <script>
+        let kor=80;
+        let eng=95;
+
+        console.log(kor >= 90 && 90 eng>=90); // kor도 eng도 90 이상이냐? (둘 다 만족해야)
+        console.log(kor >= 90 || eng>=90); // kor 과 eng 중 하나라도 90 이상이냐? (둘 중 하나라도 만족해야)
+        console.log ( ! ( kor >= 90 ) ) ; // ! flase = 참
+    </script>
+
+
+</body>
+</html>

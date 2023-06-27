@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+
+        let price = prompt("사용금액을 입력하세요.");
+        let grade;
+
+        if (price > 500000) {
+            grade="vvip";
+        } else if (price > 300000){
+            grade="vip";
+        } else {
+            grade="카드를 좀 더 써보세요.";
+        }
+        alert(grade);
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+        let kor = parseInt(prompt("국어점수"));
+        let math = parseInt(prompt("수학점수"));
+        let eng = parseInt(prompt("영어점수"));
+
+        let aver = (kor+eng+math)/3;
+        let grade
+        
+        if ( aver > 90) {
+            grade="장학금개꿀";
+        } else {
+            grade="응~넌안돼";
+        } 
+        alert(grade)        
+
+    </script>
+    
+</body>
+</html>
